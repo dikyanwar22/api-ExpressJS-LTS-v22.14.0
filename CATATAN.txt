@@ -11,3 +11,5 @@ URL Create : http://localhost:5000/api/products
 URL GET : http://localhost:5000/api/products/1
 URL PUT (update) : http://localhost:5000/api/products/1
 URL Delete : http://localhost:5000/api/products/1
+
+Body > form-data
