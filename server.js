@@ -10,7 +10,12 @@ app.use(cors());
 
 // Rute otentikasi
 const authRoutes = require("./routes/auth");
+const productRoutes = require("./routes/product");
+
 app.use("/api/auth", authRoutes);
+app.use("/api/products", productRoutes); 
+app.use("/uploads", express.static("uploads"));
+
 
 // Jalankan server
 const PORT = 5000;

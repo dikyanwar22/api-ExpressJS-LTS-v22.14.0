@@ -1,0 +1,10 @@
+NODE JS : v22.14.0
+
+cara jalankan : node server.js
+
+menggunakan kode bearer-token JWT
+
+URL Register : http://localhost:5000/api/auth/register
+URL Login : http://localhost:5000/api/auth/login
+
+URL Create : http://localhost:5000/api/products
